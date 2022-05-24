@@ -1,0 +1,41 @@
+@import "../../node_modules/bootstrap/scss/functions";
+// $font-family-base: 'Love Ya Like A Sister', cursive;
+$headings-font-family:  'Love Ya Like A Sister', cursive ;
+@import "../../node_modules/bootstrap/scss/variables";
+$h1-font-size:                $font-size-base * 10;
+$h2-font-size:                $font-size-base * 5;
+$theme-colors:(
+    "primary": black,
+    "secondary": #7a44ff,
+);
+
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+
+
+ .burger{
+     background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+     background-size: cover;
+     background-position: center bottom;
+     background-repeat: no-repeat;
+     height: 80vh;
+
+ }
+
+.card{
+    @include flex
+}
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
